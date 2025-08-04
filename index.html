@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+
+    <section class="spot w-screen h-screen bg-gradient-to-r from-[#09203f] to-[#537895]  pt-[90px]  ">
+
+        <div class="main w-[65%]   py-4 mx-auto   bg-slate-100 rounded-xl shadow-2xl flex justify-evenly  flex-wrap ">
+            <div class="upper w-[60%] h-[28vh] border-b border-b-gray-400 ">
+                <h1 class="text-[35px] font-extrabold text-center pt-5 ">TO-DO LIST</h1>
+                <div class=" flex justify-start gap-3 bg-white pl-3 mt-10 py-2 mx-3 rounded-xl shadow-lg">
+                    <input id="newTask" type="text" placeholder="Add a new task" class=" w-[12cm] p-2 bg-inherit focus:outline-none " />
+                    <button id="addTaskButton" class="pl-1 font-semibold w-[2cm]  bg-blue-500 text-white py-1 rounded-lg hover:bg-blue-600">ADD</button>
+                </div>
+                
+
+            </div>
+
+
+            <ul id="taskList" class="space-y-3  w-[60%]  pt-4 min-h-[42vh]  ">
+               
+
+                
+            </ul>
+            
+                
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
